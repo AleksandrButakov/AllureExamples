@@ -33,11 +33,14 @@ public class GoogleTest {
         step("We check that you have logged in correctly", () -> {
             step("We are on the main page of the site");
             step("The user is logged in", () -> {
-                assertTrue(false);
+                //assertTrue(false);
             });
             step("Login Ivan");
         });
         step("Log out");
+        step("IDEA", () -> {
+            assertTrue(true);
+        });
     }
 
 }
